@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A46F13B1C24037200BAAE6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F13A1C24037200BAAE6A /* main.m */; };
+		8A46F13E1C24037200BAAE6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F13D1C24037200BAAE6A /* AppDelegate.m */; };
+		8A46F1411C24037200BAAE6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F1401C24037200BAAE6A /* ViewController.m */; };
+		8A46F1441C24037200BAAE6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A46F1421C24037200BAAE6A /* Main.storyboard */; };
+		8A46F1461C24037200BAAE6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A46F1451C24037200BAAE6A /* Assets.xcassets */; };
+		8A46F1491C24037200BAAE6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A46F1471C24037200BAAE6A /* LaunchScreen.storyboard */; };
+		8A46F1541C24037200BAAE6A /* LXCircleAnimationViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F1531C24037200BAAE6A /* LXCircleAnimationViewTests.m */; };
+		8A46F15F1C24037200BAAE6A /* LXCircleAnimationViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F15E1C24037200BAAE6A /* LXCircleAnimationViewUITests.m */; };
+		8A46F1721C2403E500BAAE6A /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F1711C2403E500BAAE6A /* UIView+Extensions.m */; };
+		8A46F1761C24042F00BAAE6A /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F1751C24042F00BAAE6A /* UIColor+Extensions.m */; };
+		8A46F1791C24055800BAAE6A /* LXCircleAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A46F1781C24055800BAAE6A /* LXCircleAnimationView.m */; };
+		8A46F17B1C24061C00BAAE6A /* backgroundImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A46F17A1C24061C00BAAE6A /* backgroundImage@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A46F1501C24037200BAAE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A46F12E1C24037200BAAE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A46F1351C24037200BAAE6A;
+			remoteInfo = LXCircleAnimationView;
+		};
+		8A46F15B1C24037200BAAE6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A46F12E1C24037200BAAE6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A46F1351C24037200BAAE6A;
+			remoteInfo = LXCircleAnimationView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A46F1361C24037200BAAE6A /* LXCircleAnimationView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXCircleAnimationView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A46F13A1C24037200BAAE6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A46F13C1C24037200BAAE6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A46F13D1C24037200BAAE6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A46F13F1C24037200BAAE6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A46F1401C24037200BAAE6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A46F1431C24037200BAAE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A46F1451C24037200BAAE6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A46F1481C24037200BAAE6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A46F14A1C24037200BAAE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A46F14F1C24037200BAAE6A /* LXCircleAnimationViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXCircleAnimationViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A46F1531C24037200BAAE6A /* LXCircleAnimationViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCircleAnimationViewTests.m; sourceTree = "<group>"; };
+		8A46F1551C24037200BAAE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A46F15A1C24037200BAAE6A /* LXCircleAnimationViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXCircleAnimationViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A46F15E1C24037200BAAE6A /* LXCircleAnimationViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXCircleAnimationViewUITests.m; sourceTree = "<group>"; };
+		8A46F1601C24037200BAAE6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A46F1701C2403E500BAAE6A /* UIView+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extensions.h"; sourceTree = "<group>"; };
+		8A46F1711C2403E500BAAE6A /* UIView+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extensions.m"; sourceTree = "<group>"; };
+		8A46F1741C24042F00BAAE6A /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		8A46F1751C24042F00BAAE6A /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		8A46F1771C24055800BAAE6A /* LXCircleAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXCircleAnimationView.h; sourceTree = "<group>"; };
+		8A46F1781C24055800BAAE6A /* LXCircleAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXCircleAnimationView.m; sourceTree = "<group>"; };
+		8A46F17A1C24061C00BAAE6A /* backgroundImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backgroundImage@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A46F1331C24037200BAAE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A46F14C1C24037200BAAE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A46F1571C24037200BAAE6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A46F12D1C24037200BAAE6A = {
+			isa = PBXGroup;
+			children = (
+				8A46F1381C24037200BAAE6A /* LXCircleAnimationView */,
+				8A46F1521C24037200BAAE6A /* LXCircleAnimationViewTests */,
+				8A46F15D1C24037200BAAE6A /* LXCircleAnimationViewUITests */,
+				8A46F1371C24037200BAAE6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A46F1371C24037200BAAE6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F1361C24037200BAAE6A /* LXCircleAnimationView.app */,
+				8A46F14F1C24037200BAAE6A /* LXCircleAnimationViewTests.xctest */,
+				8A46F15A1C24037200BAAE6A /* LXCircleAnimationViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A46F1381C24037200BAAE6A /* LXCircleAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F1731C2403F600BAAE6A /* Category */,
+				8A46F16F1C2403A400BAAE6A /* LXCircleAnimationView */,
+				8A46F13C1C24037200BAAE6A /* AppDelegate.h */,
+				8A46F13D1C24037200BAAE6A /* AppDelegate.m */,
+				8A46F13F1C24037200BAAE6A /* ViewController.h */,
+				8A46F1401C24037200BAAE6A /* ViewController.m */,
+				8A46F1421C24037200BAAE6A /* Main.storyboard */,
+				8A46F1451C24037200BAAE6A /* Assets.xcassets */,
+				8A46F1471C24037200BAAE6A /* LaunchScreen.storyboard */,
+				8A46F14A1C24037200BAAE6A /* Info.plist */,
+				8A46F1391C24037200BAAE6A /* Supporting Files */,
+			);
+			path = LXCircleAnimationView;
+			sourceTree = "<group>";
+		};
+		8A46F1391C24037200BAAE6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F17A1C24061C00BAAE6A /* backgroundImage@2x.png */,
+				8A46F13A1C24037200BAAE6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A46F1521C24037200BAAE6A /* LXCircleAnimationViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F1531C24037200BAAE6A /* LXCircleAnimationViewTests.m */,
+				8A46F1551C24037200BAAE6A /* Info.plist */,
+			);
+			path = LXCircleAnimationViewTests;
+			sourceTree = "<group>";
+		};
+		8A46F15D1C24037200BAAE6A /* LXCircleAnimationViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F15E1C24037200BAAE6A /* LXCircleAnimationViewUITests.m */,
+				8A46F1601C24037200BAAE6A /* Info.plist */,
+			);
+			path = LXCircleAnimationViewUITests;
+			sourceTree = "<group>";
+		};
+		8A46F16F1C2403A400BAAE6A /* LXCircleAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F1771C24055800BAAE6A /* LXCircleAnimationView.h */,
+				8A46F1781C24055800BAAE6A /* LXCircleAnimationView.m */,
+			);
+			name = LXCircleAnimationView;
+			sourceTree = "<group>";
+		};
+		8A46F1731C2403F600BAAE6A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8A46F1741C24042F00BAAE6A /* UIColor+Extensions.h */,
+				8A46F1751C24042F00BAAE6A /* UIColor+Extensions.m */,
+				8A46F1701C2403E500BAAE6A /* UIView+Extensions.h */,
+				8A46F1711C2403E500BAAE6A /* UIView+Extensions.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A46F1351C24037200BAAE6A /* LXCircleAnimationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A46F1631C24037200BAAE6A /* Build configuration list for PBXNativeTarget "LXCircleAnimationView" */;
+			buildPhases = (
+				8A46F1321C24037200BAAE6A /* Sources */,
+				8A46F1331C24037200BAAE6A /* Frameworks */,
+				8A46F1341C24037200BAAE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXCircleAnimationView;
+			productName = LXCircleAnimationView;
+			productReference = 8A46F1361C24037200BAAE6A /* LXCircleAnimationView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A46F14E1C24037200BAAE6A /* LXCircleAnimationViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A46F1661C24037200BAAE6A /* Build configuration list for PBXNativeTarget "LXCircleAnimationViewTests" */;
+			buildPhases = (
+				8A46F14B1C24037200BAAE6A /* Sources */,
+				8A46F14C1C24037200BAAE6A /* Frameworks */,
+				8A46F14D1C24037200BAAE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A46F1511C24037200BAAE6A /* PBXTargetDependency */,
+			);
+			name = LXCircleAnimationViewTests;
+			productName = LXCircleAnimationViewTests;
+			productReference = 8A46F14F1C24037200BAAE6A /* LXCircleAnimationViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A46F1591C24037200BAAE6A /* LXCircleAnimationViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A46F1691C24037200BAAE6A /* Build configuration list for PBXNativeTarget "LXCircleAnimationViewUITests" */;
+			buildPhases = (
+				8A46F1561C24037200BAAE6A /* Sources */,
+				8A46F1571C24037200BAAE6A /* Frameworks */,
+				8A46F1581C24037200BAAE6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A46F15C1C24037200BAAE6A /* PBXTargetDependency */,
+			);
+			name = LXCircleAnimationViewUITests;
+			productName = LXCircleAnimationViewUITests;
+			productReference = 8A46F15A1C24037200BAAE6A /* LXCircleAnimationViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A46F12E1C24037200BAAE6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Garden.Lee;
+				TargetAttributes = {
+					8A46F1351C24037200BAAE6A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = A9H82HQMS7;
+					};
+					8A46F14E1C24037200BAAE6A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = A9H82HQMS7;
+						TestTargetID = 8A46F1351C24037200BAAE6A;
+					};
+					8A46F1591C24037200BAAE6A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = A9H82HQMS7;
+						TestTargetID = 8A46F1351C24037200BAAE6A;
+					};
+				};
+			};
+			buildConfigurationList = 8A46F1311C24037200BAAE6A /* Build configuration list for PBXProject "LXCircleAnimationView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A46F12D1C24037200BAAE6A;
+			productRefGroup = 8A46F1371C24037200BAAE6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A46F1351C24037200BAAE6A /* LXCircleAnimationView */,
+				8A46F14E1C24037200BAAE6A /* LXCircleAnimationViewTests */,
+				8A46F1591C24037200BAAE6A /* LXCircleAnimationViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A46F1341C24037200BAAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A46F1491C24037200BAAE6A /* LaunchScreen.storyboard in Resources */,
+				8A46F1461C24037200BAAE6A /* Assets.xcassets in Resources */,
+				8A46F1441C24037200BAAE6A /* Main.storyboard in Resources */,
+				8A46F17B1C24061C00BAAE6A /* backgroundImage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A46F14D1C24037200BAAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A46F1581C24037200BAAE6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A46F1321C24037200BAAE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A46F1411C24037200BAAE6A /* ViewController.m in Sources */,
+				8A46F1721C2403E500BAAE6A /* UIView+Extensions.m in Sources */,
+				8A46F13E1C24037200BAAE6A /* AppDelegate.m in Sources */,
+				8A46F1791C24055800BAAE6A /* LXCircleAnimationView.m in Sources */,
+				8A46F13B1C24037200BAAE6A /* main.m in Sources */,
+				8A46F1761C24042F00BAAE6A /* UIColor+Extensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A46F14B1C24037200BAAE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A46F1541C24037200BAAE6A /* LXCircleAnimationViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A46F1561C24037200BAAE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A46F15F1C24037200BAAE6A /* LXCircleAnimationViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A46F1511C24037200BAAE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A46F1351C24037200BAAE6A /* LXCircleAnimationView */;
+			targetProxy = 8A46F1501C24037200BAAE6A /* PBXContainerItemProxy */;
+		};
+		8A46F15C1C24037200BAAE6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A46F1351C24037200BAAE6A /* LXCircleAnimationView */;
+			targetProxy = 8A46F15B1C24037200BAAE6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A46F1421C24037200BAAE6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A46F1431C24037200BAAE6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A46F1471C24037200BAAE6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A46F1481C24037200BAAE6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A46F1611C24037200BAAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A46F1621C24037200BAAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A46F1641C24037200BAAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXCircleAnimationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXCircleAnimationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A46F1651C24037200BAAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXCircleAnimationView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXCircleAnimationView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A46F1671C24037200BAAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXCircleAnimationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXCircleAnimationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXCircleAnimationView.app/LXCircleAnimationView";
+			};
+			name = Debug;
+		};
+		8A46F1681C24037200BAAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXCircleAnimationViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXCircleAnimationViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXCircleAnimationView.app/LXCircleAnimationView";
+			};
+			name = Release;
+		};
+		8A46F16A1C24037200BAAE6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXCircleAnimationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXCircleAnimationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXCircleAnimationView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A46F16B1C24037200BAAE6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXCircleAnimationViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LXCircleAnimationViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXCircleAnimationView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A46F1311C24037200BAAE6A /* Build configuration list for PBXProject "LXCircleAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A46F1611C24037200BAAE6A /* Debug */,
+				8A46F1621C24037200BAAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A46F1631C24037200BAAE6A /* Build configuration list for PBXNativeTarget "LXCircleAnimationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A46F1641C24037200BAAE6A /* Debug */,
+				8A46F1651C24037200BAAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A46F1661C24037200BAAE6A /* Build configuration list for PBXNativeTarget "LXCircleAnimationViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A46F1671C24037200BAAE6A /* Debug */,
+				8A46F1681C24037200BAAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A46F1691C24037200BAAE6A /* Build configuration list for PBXNativeTarget "LXCircleAnimationViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A46F16A1C24037200BAAE6A /* Debug */,
+				8A46F16B1C24037200BAAE6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A46F12E1C24037200BAAE6A /* Project object */;
+}
